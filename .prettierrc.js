@@ -1,0 +1,1 @@
+library/node_modules/@build-script/single-dog-asset/package/prettierrc.js

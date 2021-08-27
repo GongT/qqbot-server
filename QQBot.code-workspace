@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "library"
+		},
+		{ "path": "my-server" }
+	],
+	"settings": {
+		"prettier.configPath": "${workspacePath}/library/.prettierrc.js"
+	},
+	"extensions": {
+		"recommendations": [
+			"visualstudioexptteam.vscodeintellicode",
+			"mike-co.import-sorter"
+		]
+	}
+}
