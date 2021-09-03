@@ -5,11 +5,11 @@ import { QQApiCode } from './inc/enum';
 import { ApiError } from './inc/error';
 import { Events } from './inc/events';
 import { HeartbeatController } from './inc/heartbeatController';
-import { WrappedConsole } from './inc/logger';
+import { WrappedTerminalConsole } from './inc/logger/terminal';
 import { PromiseList } from './inc/promiseList';
 import { IConnectOptions, websocketHandshake } from './inc/websocket';
 
-const console = new WrappedConsole('Client');
+const console = new WrappedTerminalConsole('Client');
 
 export class MiraiWebsocketClient {
 	private declare ws: WebSocket;
@@ -65,7 +65,7 @@ export class MiraiWebsocketClient {
 	}
 
 	private handler(incomming: string) {
-		console.debug('incomming message: %s', incomming);
+		console.debug('incomming message: %s', incomming.toString());
 		const message = JSON.parse(incomming);
 
 		const syncId: string = message.syncId;

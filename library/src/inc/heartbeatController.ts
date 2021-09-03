@@ -1,7 +1,7 @@
 import { MiraiWebsocketClient } from '../index';
-import { WrappedConsole } from './logger';
+import { WrappedTerminalConsole } from './logger/terminal';
 
-const console = new WrappedConsole('Heartbeat');
+const console = new WrappedTerminalConsole('Heartbeat');
 
 export class HeartbeatController {
 	private timer?: NodeJS.Timer;

@@ -1,9 +1,9 @@
 import { definePublicConstant, Disposable, Emitter, EventRegister, ucfirst } from '@idlebox/common';
 import { QQEvent } from './enum';
-import { WrappedConsole } from './logger';
+import { WrappedTerminalConsole } from './logger/terminal';
 import type { QQFriendMessage, QQGroupMessage, QQSyncMessage } from './types';
 
-const console = new WrappedConsole('Events');
+const console = new WrappedTerminalConsole('Events');
 
 type EventRegistry = {
 	[Property in keyof typeof QQEvent as `on${Capitalize<Property>}`]: EventRegister<any>;
@@ -63,7 +63,7 @@ export class Events extends Disposable implements EventRegistry {
 		super();
 		for (const [localName, netName] of Object.entries(QQEvent)) {
 			this.events[netName] = this._register(new Emitter());
-			console.debug('event type %s trigger %s', netName, 'on' + ucfirst(localName));
+			// console.debug('event type %s trigger %s', netName, 'on' + ucfirst(localName));
 			definePublicConstant(this, 'on' + ucfirst(localName), this.events[netName].register);
 		}
 	}

@@ -20,6 +20,20 @@ export class ApiError extends Error {
     readonly code: QQApiCode;
 }
 
+// Warning: (ae-missing-release-tag) "ColorKind" is exported by the package, but it is missing a release tag (@alpha, @beta, @public, or @internal)
+//
+// @public (undocumented)
+export enum ColorKind {
+    // (undocumented)
+    DETECT = 3,
+    // (undocumented)
+    DISABLE = 0,
+    // (undocumented)
+    TERMINAL = 1,
+    // (undocumented)
+    WEB = 2
+}
+
 // Warning: (ae-missing-release-tag) "createServerUrl" is exported by the package, but it is missing a release tag (@alpha, @beta, @public, or @internal)
 //
 // @public (undocumented)
@@ -752,19 +766,33 @@ export interface QQSyncMessageSender {
 // @public (undocumented)
 export function websocketHandshake(connectionOptions: IConnectOptions): Promise<WebSocket>;
 
+// Warning: (ae-missing-release-tag) "WebTerminalConsole" is exported by the package, but it is missing a release tag (@alpha, @beta, @public, or @internal)
+//
+// @public (undocumented)
+export class WebTerminalConsole extends WrappedConsole {
+    // Warning: (ae-forgotten-export) The symbol "WebConsoleOptions" needs to be exported by the entry point _export_all_in_one_index.d.ts
+    constructor(title: string, { color, ...opt }?: WrappedConsoleOptions & WebConsoleOptions);
+    // (undocumented)
+    protected processColorLabel(msg: any[], pos: number, level: string, prefix: string): void;
+}
+
 // Warning: (ae-missing-release-tag) "WrappedConsole" is exported by the package, but it is missing a release tag (@alpha, @beta, @public, or @internal)
 //
 // @public (undocumented)
-export class WrappedConsole {
-    constructor(title: string, parent?: Console, bind?: boolean);
+export abstract class WrappedConsole {
+    constructor(title: string, { parent, bind }?: WrappedConsoleOptions);
     // (undocumented)
     assert: Console['assert'];
+    // (undocumented)
+    protected readonly bind: boolean;
     // (undocumented)
     clear: Console['clear'];
     // (undocumented)
     count: Console['count'];
     // (undocumented)
     countReset: Console['countReset'];
+    // (undocumented)
+    protected createPrefix(message: string): string;
     // (undocumented)
     debug: Console['debug'];
     // (undocumented)
@@ -782,6 +810,10 @@ export class WrappedConsole {
     // (undocumented)
     log: Console['log'];
     // (undocumented)
+    protected readonly parent: Console;
+    // (undocumented)
+    protected abstract processColorLabel(normalizedArguments: any[], messageLoc: number, level: string, prefix: string): void;
+    // (undocumented)
     success: Console['log'];
     // (undocumented)
     table: Console['table'];
@@ -792,9 +824,37 @@ export class WrappedConsole {
     // (undocumented)
     timeLog: Console['timeLog'];
     // (undocumented)
+    protected readonly title: string;
+    // (undocumented)
     trace: Console['trace'];
     // (undocumented)
+    protected uncolor(args: any[], pos: number, prefix: string, postfix: string): void;
+    // (undocumented)
     warn: Console['warn'];
+    // (undocumented)
+    protected wrap<T extends keyof Omit<Console & {
+        Console: any;
+    }, 'Console'>>(original: T): Function;
+}
+
+// Warning: (ae-missing-release-tag) "WrappedConsoleOptions" is exported by the package, but it is missing a release tag (@alpha, @beta, @public, or @internal)
+//
+// @public (undocumented)
+export interface WrappedConsoleOptions {
+    // (undocumented)
+    bind?: boolean;
+    // (undocumented)
+    parent?: Console;
+}
+
+// Warning: (ae-missing-release-tag) "WrappedTerminalConsole" is exported by the package, but it is missing a release tag (@alpha, @beta, @public, or @internal)
+//
+// @public (undocumented)
+export class WrappedTerminalConsole extends WrappedConsole {
+    // Warning: (ae-forgotten-export) The symbol "TerminalConsoleOptions" needs to be exported by the entry point _export_all_in_one_index.d.ts
+    constructor(title: string, { color, ...opt }?: WrappedConsoleOptions & TerminalConsoleOptions);
+    // (undocumented)
+    protected processColorLabel(msg: any[], pos: number, level: string, prefix: string): void;
 }
 
 // (No @packageDocumentation comment for this package)

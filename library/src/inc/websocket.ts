@@ -1,9 +1,9 @@
 import { stringify } from 'querystring';
 import { timeout } from '@idlebox/common';
 import WebSocket from 'ws';
-import { WrappedConsole } from './logger';
+import { WrappedTerminalConsole } from './logger/terminal';
 
-const console = new WrappedConsole('WS');
+const console = new WrappedTerminalConsole('WS');
 
 export interface IConnectOptions extends IConnectOptionsBot {
 	address: IUnixSocket | IServerPortPair;

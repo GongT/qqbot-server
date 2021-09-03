@@ -1,17 +1,20 @@
 {
 	"folders": [
 		{
-			"path": "library"
+			"path": "library",
+			"name": "共享库"
 		},
-		{ "path": "my-server" }
+		{ "path": "my-server", "name": "服务器" },
+		{ "path": "plugins", "name": "插件" }
 	],
 	"settings": {
+		"typescript.tsdk": "${workspacePath}/library/node_modules/typescript/lib",
+		"files.associations": {
+			"*.json": "jsonc"
+		},
 		"prettier.configPath": "${workspacePath}/library/.prettierrc.js"
 	},
 	"extensions": {
-		"recommendations": [
-			"visualstudioexptteam.vscodeintellicode",
-			"mike-co.import-sorter"
-		]
+		"recommendations": ["visualstudioexptteam.vscodeintellicode", "mike-co.import-sorter"]
 	}
 }

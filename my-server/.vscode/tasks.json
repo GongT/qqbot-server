@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Watch Server",
+			"command": "yarn",
+			"type": "process",
+			"args": ["watch"],
+			"problemMatcher": ["$tsc"],
+			"presentation": {
+				"reveal": "silent",
+				"clear": true,
+				"group": "build",
+				"panel": "shared",
+				"revealProblems": "onProblem"
+			},
+			"isBackground": false,
+			"runOptions": {
+				"instanceLimit": 1,
+				"runOn": "folderOpen"
+			},
+			"group": "build"
+		}
+	]
+}

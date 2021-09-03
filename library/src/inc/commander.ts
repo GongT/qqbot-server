@@ -2,7 +2,7 @@ import { definePublicConstant, lcfirst, nameFunction } from '@idlebox/common';
 import { MiraiWebsocketClient } from '../index';
 import { QQCommand } from './enum';
 
-// const console = new WrappedConsole('Commander');
+// const console = new WrappedTerminalConsole('Commander');
 
 type CommandRegistry = {
 	[Property in keyof typeof QQCommand as Uncapitalize<Property>]: ICommandCallback<unknown, unknown>;

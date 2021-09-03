@@ -10,6 +10,13 @@ export declare class ApiError extends Error {
     constructor(code: QQApiCode, message?: string);
 }
 
+export declare enum ColorKind {
+    DISABLE = 0,
+    TERMINAL = 1,
+    WEB = 2,
+    DETECT = 3
+}
+
 declare type CommandRegistry = {
     [Property in keyof typeof QQCommand as Uncapitalize<Property>]: ICommandCallback<unknown, unknown>;
 };
@@ -430,16 +437,27 @@ export declare interface QQSyncMessageSender {
     platform: string;
 }
 
+declare interface TerminalConsoleOptions {
+    color?: boolean;
+}
+
 declare type TODO = unknown;
 
 declare type TODO_2 = unknown;
 
+declare interface WebConsoleOptions {
+    color?: boolean;
+}
+
 export declare function websocketHandshake(connectionOptions: IConnectOptions): Promise<WebSocket>;
 
-export declare class WrappedConsole {
-    private readonly title;
-    private parent;
-    private bind;
+export declare class WebTerminalConsole extends WrappedConsole {
+    private readonly colors;
+    constructor(title: string, { color, ...opt }?: WrappedConsoleOptions & WebConsoleOptions);
+    protected processColorLabel(msg: any[], pos: number, level: string, prefix: string): void;
+}
+
+export declare abstract class WrappedConsole {
     info: Console['info'];
     log: Console['log'];
     success: Console['log'];
@@ -459,10 +477,31 @@ export declare class WrappedConsole {
     table: Console['table'];
     dir: Console['dir'];
     clear: Console['clear'];
-    constructor(title: string, parent?: Console, bind?: boolean);
+    protected readonly title: string;
+    protected readonly parent: Console;
+    protected readonly bind: boolean;
+    constructor(title: string, { parent, bind }?: WrappedConsoleOptions);
+    protected wrap<T extends keyof Omit<Console & {
+        Console: any;
+    }, 'Console'>>(original: T): Function;
     private wrapSimple;
+    private wrapExtra;
+    protected createPrefix(message: string): string;
     private wrapMessageAt;
-    private processLabel;
+    private convertObjectArg;
+    protected abstract processColorLabel(normalizedArguments: any[], messageLoc: number, level: string, prefix: string): void;
+    protected uncolor(args: any[], pos: number, prefix: string, postfix: string): void;
+}
+
+export declare interface WrappedConsoleOptions {
+    parent?: Console;
+    bind?: boolean;
+}
+
+export declare class WrappedTerminalConsole extends WrappedConsole {
+    private readonly colors;
+    constructor(title: string, { color, ...opt }?: WrappedConsoleOptions & TerminalConsoleOptions);
+    protected processColorLabel(msg: any[], pos: number, level: string, prefix: string): void;
 }
 
 export { }
