@@ -11,7 +11,7 @@
 			"skipFiles": ["<node_internals>/**", "${workspaceFolder}/lib/inc/logger.cjs"],
 			"outFiles": [
 				"${workspaceFolder}/lib/**/*.js",
-				"${workspaceFolder}/node_modules/@gongt/qqbot-server/**/*.js"
+				"${workspaceFolder}/node_modules/@gongt/qqbot/**/*.js"
 			],
 			"resolveSourceMapLocations": null,
 			"sourceMaps": true,

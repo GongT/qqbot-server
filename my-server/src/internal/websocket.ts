@@ -1,7 +1,7 @@
 import { stringify } from 'querystring';
+import { WrappedTerminalConsole } from '@gongt/qqbot';
 import { timeout } from '@idlebox/common';
 import WebSocket from 'ws';
-import { WrappedTerminalConsole } from './logger/terminal';
 
 const console = new WrappedTerminalConsole('WS');
 
@@ -55,16 +55,16 @@ export function createServerUrl({ address, verifyKey, sessionKey, qq }: IConnect
 export async function websocketHandshake(connectionOptions: IConnectOptions): Promise<WebSocket> {
 	const url = createServerUrl(connectionOptions);
 
-	console.log('try connecting: %s ...', url);
+	console.log('尝试连接Mirai HTTP服务器：%s ...', url);
 	const ws = new WebSocket(url);
 	const waitConnect = new Promise<void>((resolve, reject) => {
 		ws.once('open', () => {
 			ws.off('error', onerror);
-			console.success(' * connected');
+			console.success(' * 成功');
 			resolve();
 		});
 		function onerror(e: Error) {
-			console.error(' * failed: %s', e.message);
+			console.error(' * 失败: %s', e.message);
 			reject(e);
 		}
 		ws.once('error', onerror);
@@ -81,8 +81,8 @@ export async function websocketHandshake(connectionOptions: IConnectOptions): Pr
 	});
 
 	await waitConnect;
-	await Promise.race([waitHello, timeout(5000, 'server did not send hello within 5s')]);
+	await Promise.race([waitHello, timeout(5000, '服务器没有在5秒内响应命令')]);
 
-	console.success(' * handshake ok');
+	console.success(' * 握手成功');
 	return ws;
 }

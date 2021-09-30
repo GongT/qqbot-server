@@ -1,13 +1,14 @@
-import { MiraiWebsocketClient, WrappedTerminalConsole } from '@gongt/qqbot-server';
+import { WrappedTerminalConsole } from '@gongt/qqbot';
 import { watch } from 'chokidar';
 import debounce from 'debounce';
 import { PLUGIN_ROOT } from './constants';
-import { PluginsController } from './plugin';
+import { MiraiWebsocketClient } from './internal/client';
+import { PluginsHost } from './internal/plugin';
 
 const console = new WrappedTerminalConsole('main');
 
 async function main() {
-	console.log('using %s as plugins root.', PLUGIN_ROOT);
+	console.log('插件根目录 %s', PLUGIN_ROOT);
 
 	const client = new MiraiWebsocketClient({
 		address: { server: 'server', port: '56080' },
@@ -18,7 +19,7 @@ async function main() {
 
 	const watcher = watch('**/*.js', {
 		cwd: PLUGIN_ROOT,
-		ignoreInitial: true,
+		ignoreInitial: false,
 		followSymlinks: false,
 		usePolling: false,
 		ignored: ['*/.*'],
@@ -28,7 +29,7 @@ async function main() {
 		console.error('FSWatch ' + e.message);
 	});
 
-	const pluginsController = new PluginsController();
+	const pluginsController = new PluginsHost(client);
 	const changefn = debounce(pluginsController.changeEventHandler, 3000, false);
 	watcher.on('add', changefn);
 	watcher.on('change', changefn);

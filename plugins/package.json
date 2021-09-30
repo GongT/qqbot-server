@@ -1,5 +1,5 @@
 {
-	"name": "@gongt/qqbot-server-private",
+	"name": "@gongt/qqbot-private",
 	"private": true,
 	"version": "0.0.0",
 	"description": "",
@@ -18,7 +18,7 @@
 		"tslib": "^2.3.1"
 	},
 	"devDependencies": {
-		"@gongt/qqbot-server": "*",
+		"@gongt/qqbot": "*",
 		"@build-script/builder": "^3.0.3",
 		"@build-script/single-dog-asset": "^1.0.13",
 		"@types/node": "^16.7.2",

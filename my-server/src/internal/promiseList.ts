@@ -31,14 +31,14 @@ export class PromiseList {
 
 	enableTimeout() {
 		if (this.timer) {
-			throw new Error('promise timeout timer already set');
+			throw new Error('重复调用enableTimeout()');
 		}
 		this.timer = setInterval(() => {
 			const now = Date.now();
 			for (const [key, { dfd, timeout }] of Object.entries(this.promiseList)) {
 				if (timeout < now) {
 					delete this.promiseList[key];
-					dfd.error(new TimeoutError(timeout, 'mirai server did not response'));
+					dfd.error(new TimeoutError(timeout, 'Mirai服务器没有及时响应该命令'));
 				}
 			}
 		}, this.defaultTimeoutMs / 2);

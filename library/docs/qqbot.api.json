@@ -160,18 +160,18 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@gongt/qqbot-server!",
+  "canonicalReference": "@gongt/qqbot!",
   "docComment": "",
-  "name": "@gongt/qqbot-server",
+  "name": "@gongt/qqbot",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@gongt/qqbot-server!",
+      "canonicalReference": "@gongt/qqbot!",
       "name": "",
       "members": [
         {
           "kind": "Class",
-          "canonicalReference": "@gongt/qqbot-server!ApiError:class",
+          "canonicalReference": "@gongt/qqbot!ApiError:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -193,7 +193,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@gongt/qqbot-server!ApiError:constructor(1)",
+              "canonicalReference": "@gongt/qqbot!ApiError:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `ApiError` class\n */\n",
               "excerptTokens": [
                 {
@@ -203,7 +203,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQApiCode",
-                  "canonicalReference": "@gongt/qqbot-server!QQApiCode:enum"
+                  "canonicalReference": "@gongt/qqbot!QQApiCode:enum"
                 },
                 {
                   "kind": "Content",
@@ -239,7 +239,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!ApiError#code:member",
+              "canonicalReference": "@gongt/qqbot!ApiError#code:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -249,7 +249,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQApiCode",
-                  "canonicalReference": "@gongt/qqbot-server!QQApiCode:enum"
+                  "canonicalReference": "@gongt/qqbot!QQApiCode:enum"
                 },
                 {
                   "kind": "Content",
@@ -274,7 +274,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@gongt/qqbot-server!ColorKind:enum",
+          "canonicalReference": "@gongt/qqbot!ColorKind:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -287,7 +287,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!ColorKind.DETECT:member",
+              "canonicalReference": "@gongt/qqbot!ColorKind.DETECT:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -308,7 +308,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!ColorKind.DISABLE:member",
+              "canonicalReference": "@gongt/qqbot!ColorKind.DISABLE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -329,7 +329,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!ColorKind.TERMINAL:member",
+              "canonicalReference": "@gongt/qqbot!ColorKind.TERMINAL:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -350,7 +350,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!ColorKind.WEB:member",
+              "canonicalReference": "@gongt/qqbot!ColorKind.WEB:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -373,7 +373,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!CommandRegistry:interface",
+          "canonicalReference": "@gongt/qqbot!CommandRegistry:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -383,7 +383,7 @@
             {
               "kind": "Reference",
               "text": "_CommandRegistry",
-              "canonicalReference": "@gongt/qqbot-server!~_CommandRegistry:type"
+              "canonicalReference": "@gongt/qqbot!~_CommandRegistry:type"
             },
             {
               "kind": "Content",
@@ -395,7 +395,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#about:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#about:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -409,7 +409,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -427,7 +427,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -448,7 +448,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#botProfile:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#botProfile:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -462,7 +462,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -480,7 +480,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -501,7 +501,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#deleteFriend:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#deleteFriend:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -515,7 +515,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -533,7 +533,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -554,7 +554,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#fileDelete:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#fileDelete:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -568,7 +568,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -586,7 +586,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -607,7 +607,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#fileInfo:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#fileInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -621,7 +621,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -639,7 +639,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -660,7 +660,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#fileList:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#fileList:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -674,7 +674,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -692,7 +692,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -713,7 +713,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#fileMkdir:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#fileMkdir:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -727,7 +727,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -745,7 +745,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -766,7 +766,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#fileMove:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#fileMove:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -780,7 +780,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -798,7 +798,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -819,7 +819,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#fileRename:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#fileRename:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -833,7 +833,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -851,7 +851,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -872,7 +872,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#friendList:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#friendList:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -886,7 +886,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -904,7 +904,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -925,7 +925,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#friendProfile:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#friendProfile:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -939,7 +939,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -957,7 +957,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -978,7 +978,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#getGroupConfig:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#getGroupConfig:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -992,7 +992,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1010,7 +1010,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1031,7 +1031,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#getMemberInfo:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#getMemberInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1045,7 +1045,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1063,7 +1063,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1084,7 +1084,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#groupList:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#groupList:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1098,7 +1098,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1116,7 +1116,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1137,7 +1137,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#kick:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#kick:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1151,7 +1151,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1169,7 +1169,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1190,7 +1190,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#memberList:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#memberList:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1204,7 +1204,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1222,7 +1222,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1243,7 +1243,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#memberProfile:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#memberProfile:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1257,7 +1257,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1275,7 +1275,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1296,7 +1296,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#messageFromId:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#messageFromId:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1310,7 +1310,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1328,7 +1328,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1349,7 +1349,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#mute:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#mute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1363,7 +1363,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1381,7 +1381,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1402,7 +1402,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#muteAll:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#muteAll:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1416,7 +1416,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1434,7 +1434,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1455,7 +1455,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#quit:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#quit:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1469,7 +1469,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1487,7 +1487,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1508,7 +1508,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#recall:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#recall:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1522,7 +1522,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1540,7 +1540,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1561,7 +1561,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#respBotInvitedJoinGroupRequestEvent:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#respBotInvitedJoinGroupRequestEvent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1575,7 +1575,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1593,7 +1593,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1614,7 +1614,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#respMemberJoinRequestEvent:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#respMemberJoinRequestEvent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1628,7 +1628,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1646,7 +1646,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1667,7 +1667,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#respNewFriendRequestEvent:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#respNewFriendRequestEvent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1681,7 +1681,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1699,7 +1699,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1720,7 +1720,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#sendFriendMessage:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#sendFriendMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1734,7 +1734,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1752,7 +1752,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1773,7 +1773,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#sendGroupMessage:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#sendGroupMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1787,7 +1787,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1805,7 +1805,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1826,7 +1826,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#sendNudge:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#sendNudge:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1840,7 +1840,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1858,7 +1858,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1879,7 +1879,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#sendTempMessage:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#sendTempMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1893,7 +1893,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1911,7 +1911,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1932,7 +1932,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#setEssence:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#setEssence:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1946,7 +1946,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1964,7 +1964,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -1985,7 +1985,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#unmute:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#unmute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1999,7 +1999,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2017,7 +2017,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2038,7 +2038,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#unmuteAll:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#unmuteAll:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2052,7 +2052,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2070,7 +2070,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2091,7 +2091,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#updateGroupConfig:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#updateGroupConfig:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2105,7 +2105,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2123,7 +2123,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2144,7 +2144,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry#updateMemberInfo:member",
+              "canonicalReference": "@gongt/qqbot!CommandRegistry#updateMemberInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2158,7 +2158,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2176,7 +2176,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2205,7 +2205,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!EventRegistry:interface",
+          "canonicalReference": "@gongt/qqbot!EventRegistry:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2215,7 +2215,7 @@
             {
               "kind": "Reference",
               "text": "_EventRegistry",
-              "canonicalReference": "@gongt/qqbot-server!~_EventRegistry:type"
+              "canonicalReference": "@gongt/qqbot!~_EventRegistry:type"
             },
             {
               "kind": "Content",
@@ -2227,7 +2227,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotGroupPermissionChange:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotGroupPermissionChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2246,7 +2246,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2267,7 +2267,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotInvitedJoinGroupRequest:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotInvitedJoinGroupRequest:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2286,7 +2286,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2307,7 +2307,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotJoinGroup:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotJoinGroup:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2326,7 +2326,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2347,7 +2347,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotLeaveActive:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotLeaveActive:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2366,7 +2366,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2387,7 +2387,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotLeaveKick:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotLeaveKick:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2406,7 +2406,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2427,7 +2427,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotMute:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotMute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2446,7 +2446,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2467,7 +2467,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotOfflineActive:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotOfflineActive:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2486,7 +2486,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2507,7 +2507,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotOfflineDropped:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotOfflineDropped:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2526,7 +2526,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2547,7 +2547,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotOfflineForce:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotOfflineForce:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2566,7 +2566,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2587,7 +2587,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotOnline:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotOnline:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2606,7 +2606,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2627,7 +2627,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotRelogin:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotRelogin:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2646,7 +2646,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2667,7 +2667,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onBotUnmute:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onBotUnmute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2686,7 +2686,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2707,7 +2707,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onCommandExecuted:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onCommandExecuted:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2726,7 +2726,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2747,7 +2747,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onFriendInputStatusChanged:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onFriendInputStatusChanged:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2766,7 +2766,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2787,7 +2787,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onFriendMessage:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onFriendMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2806,7 +2806,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQFriendMessage",
-                  "canonicalReference": "@gongt/qqbot-server!QQFriendMessage:interface"
+                  "canonicalReference": "@gongt/qqbot!QQFriendMessage:interface"
                 },
                 {
                   "kind": "Content",
@@ -2827,7 +2827,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onFriendNickChanged:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onFriendNickChanged:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2846,7 +2846,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2867,7 +2867,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onFriendRecall:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onFriendRecall:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2886,7 +2886,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2907,7 +2907,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onGroupAllowAnonymousChat:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onGroupAllowAnonymousChat:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2926,7 +2926,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2947,7 +2947,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onGroupAllowConfessTalk:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onGroupAllowConfessTalk:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2966,7 +2966,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -2987,7 +2987,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onGroupAllowMemberInvite:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onGroupAllowMemberInvite:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3006,7 +3006,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3027,7 +3027,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onGroupEntranceAnnouncementChange:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onGroupEntranceAnnouncementChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3046,7 +3046,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3067,7 +3067,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onGroupMessage:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onGroupMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3086,7 +3086,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQGroupMessage",
-                  "canonicalReference": "@gongt/qqbot-server!QQGroupMessage:interface"
+                  "canonicalReference": "@gongt/qqbot!QQGroupMessage:interface"
                 },
                 {
                   "kind": "Content",
@@ -3107,7 +3107,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onGroupMuteAll:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onGroupMuteAll:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3126,7 +3126,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3147,7 +3147,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onGroupNameChange:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onGroupNameChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3166,7 +3166,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3187,7 +3187,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onGroupRecall:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onGroupRecall:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3206,7 +3206,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3227,7 +3227,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberCardChange:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberCardChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3246,7 +3246,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3267,7 +3267,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberHonorChange:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberHonorChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3286,7 +3286,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3307,7 +3307,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberJoin:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberJoin:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3326,7 +3326,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3347,7 +3347,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberJoinRequest:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberJoinRequest:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3366,7 +3366,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3387,7 +3387,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberLeaveKick:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberLeaveKick:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3406,7 +3406,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3427,7 +3427,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberLeaveQuit:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberLeaveQuit:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3446,7 +3446,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3467,7 +3467,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberMute:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberMute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3486,7 +3486,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3507,7 +3507,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberPermissionChange:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberPermissionChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3526,7 +3526,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3547,7 +3547,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberSpecialTitleChange:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberSpecialTitleChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3566,7 +3566,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3587,7 +3587,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onMemberUnmute:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onMemberUnmute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3606,7 +3606,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3627,7 +3627,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onNewFriendRequest:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onNewFriendRequest:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3646,7 +3646,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3667,7 +3667,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onNudge:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onNudge:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3686,7 +3686,7 @@
                 {
                   "kind": "Reference",
                   "text": "TODO",
-                  "canonicalReference": "@gongt/qqbot-server!TODO:type"
+                  "canonicalReference": "@gongt/qqbot!TODO:type"
                 },
                 {
                   "kind": "Content",
@@ -3707,7 +3707,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onOtherClientMessage:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onOtherClientMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3726,7 +3726,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQSyncMessage",
-                  "canonicalReference": "@gongt/qqbot-server!QQSyncMessage:interface"
+                  "canonicalReference": "@gongt/qqbot!QQSyncMessage:interface"
                 },
                 {
                   "kind": "Content",
@@ -3747,7 +3747,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onStrangerMessage:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onStrangerMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3766,7 +3766,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQFriendMessage",
-                  "canonicalReference": "@gongt/qqbot-server!QQFriendMessage:interface"
+                  "canonicalReference": "@gongt/qqbot!QQFriendMessage:interface"
                 },
                 {
                   "kind": "Content",
@@ -3787,7 +3787,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry#onTempMessage:member",
+              "canonicalReference": "@gongt/qqbot!EventRegistry#onTempMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3806,7 +3806,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQGroupMessage",
-                  "canonicalReference": "@gongt/qqbot-server!QQGroupMessage:interface"
+                  "canonicalReference": "@gongt/qqbot!QQGroupMessage:interface"
                 },
                 {
                   "kind": "Content",
@@ -3835,7 +3835,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@gongt/qqbot-server!GroupPermission:enum",
+          "canonicalReference": "@gongt/qqbot!GroupPermission:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3848,7 +3848,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!GroupPermission.Admin:member",
+              "canonicalReference": "@gongt/qqbot!GroupPermission.Admin:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3869,7 +3869,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!GroupPermission.Member:member",
+              "canonicalReference": "@gongt/qqbot!GroupPermission.Member:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3890,7 +3890,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!GroupPermission.Owner:member",
+              "canonicalReference": "@gongt/qqbot!GroupPermission.Owner:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3913,7 +3913,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@gongt/qqbot-server!ipcChannel:var",
+          "canonicalReference": "@gongt/qqbot!ipcChannel:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3923,7 +3923,7 @@
             {
               "kind": "Reference",
               "text": "EventRegistry",
-              "canonicalReference": "@gongt/qqbot-server!EventRegistry:interface"
+              "canonicalReference": "@gongt/qqbot!EventRegistry:interface"
             },
             {
               "kind": "Content",
@@ -3932,7 +3932,7 @@
             {
               "kind": "Reference",
               "text": "CommandRegistry",
-              "canonicalReference": "@gongt/qqbot-server!CommandRegistry:interface"
+              "canonicalReference": "@gongt/qqbot!CommandRegistry:interface"
             }
           ],
           "releaseTag": "Public",
@@ -3944,7 +3944,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@gongt/qqbot-server!IpcChannelServer:class",
+          "canonicalReference": "@gongt/qqbot!IpcChannelServer:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3957,7 +3957,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@gongt/qqbot-server!IpcChannelServer:constructor(1)",
+              "canonicalReference": "@gongt/qqbot!IpcChannelServer:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `IpcChannelServer` class\n */\n",
               "excerptTokens": [
                 {
@@ -3988,7 +3988,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@gongt/qqbot-server!IpcChannelServer#onHandle:member(1)",
+              "canonicalReference": "@gongt/qqbot!IpcChannelServer#onHandle:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4017,7 +4017,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!IpcChannelServer#process:member",
+              "canonicalReference": "@gongt/qqbot!IpcChannelServer#process:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4045,7 +4045,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@gongt/qqbot-server!IpcChannelServer#triggerEvent:member(1)",
+              "canonicalReference": "@gongt/qqbot!IpcChannelServer#triggerEvent:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4077,7 +4077,913 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@gongt/qqbot-server!MessageChain:type",
+          "canonicalReference": "@gongt/qqbot!IPCClientMessage:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type IPCClientMessage = "
+            },
+            {
+              "kind": "Reference",
+              "text": "IPCMessageWithId",
+              "canonicalReference": "@gongt/qqbot!~IPCMessageWithId:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " & ("
+            },
+            {
+              "kind": "Reference",
+              "text": "IPCMessageCommand",
+              "canonicalReference": "@gongt/qqbot!IPCMessageCommand:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "IPCMessageEventControl",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEventControl:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ")"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCClientMessage",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 7
+          }
+        },
+        {
+          "kind": "Namespace",
+          "canonicalReference": "@gongt/qqbot!IPCMessage:namespace",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare namespace IPCMessage "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCMessage",
+          "members": [
+            {
+              "kind": "Function",
+              "canonicalReference": "@gongt/qqbot!IPCMessage.isAck:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "function isAck(t: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCServerMessage",
+                  "canonicalReference": "@gongt/qqbot!IPCServerMessage:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "t",
+                  "canonicalReference": "@gongt/qqbot!~t"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageAck",
+                  "canonicalReference": "@gongt/qqbot!IPCMessageAck:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "t",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                }
+              ],
+              "name": "isAck"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@gongt/qqbot!IPCMessage.isCommand:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "function isCommand(t: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCClientMessage",
+                  "canonicalReference": "@gongt/qqbot!IPCClientMessage:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "t",
+                  "canonicalReference": "@gongt/qqbot!~t"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageCommand",
+                  "canonicalReference": "@gongt/qqbot!IPCMessageCommand:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " & "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageWithId",
+                  "canonicalReference": "@gongt/qqbot!~IPCMessageWithId:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "t",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                }
+              ],
+              "name": "isCommand"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@gongt/qqbot!IPCMessage.isEvent:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "function isEvent(t: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCServerMessage",
+                  "canonicalReference": "@gongt/qqbot!IPCServerMessage:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "t",
+                  "canonicalReference": "@gongt/qqbot!~t"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageEvent",
+                  "canonicalReference": "@gongt/qqbot!IPCMessageEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "t",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                }
+              ],
+              "name": "isEvent"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@gongt/qqbot!IPCMessage.isEventControl:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "function isEventControl(t: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCClientMessage",
+                  "canonicalReference": "@gongt/qqbot!IPCClientMessage:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "t",
+                  "canonicalReference": "@gongt/qqbot!~t"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageEventControl",
+                  "canonicalReference": "@gongt/qqbot!IPCMessageEventControl:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " & "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageWithId",
+                  "canonicalReference": "@gongt/qqbot!~IPCMessageWithId:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 8
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "t",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                }
+              ],
+              "name": "isEventControl"
+            },
+            {
+              "kind": "Function",
+              "canonicalReference": "@gongt/qqbot!IPCMessage.isLifecycle:function(1)",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "function isLifecycle(t: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCServerMessage",
+                  "canonicalReference": "@gongt/qqbot!IPCServerMessage:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "t",
+                  "canonicalReference": "@gongt/qqbot!~t"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageLifecycle",
+                  "canonicalReference": "@gongt/qqbot!IPCMessageLifecycle:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "t",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                }
+              ],
+              "name": "isLifecycle"
+            }
+          ]
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@gongt/qqbot!IPCMessageAck:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface IPCMessageAck "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCMessageAck",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageAck#kind:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "kind: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "'ack'"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "kind",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@gongt/qqbot!IPCMessageCommand:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface IPCMessageCommand "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCMessageCommand",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageCommand#event:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "QQCommand",
+                  "canonicalReference": "@gongt/qqbot!QQCommand:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "event",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageCommand#kind:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "kind: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "'command'"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "kind",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageCommand#payload:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "payload: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "any"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "payload",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@gongt/qqbot!IPCMessageEvent:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface IPCMessageEvent "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCMessageEvent",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEvent#event:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "QQEvent",
+                  "canonicalReference": "@gongt/qqbot!QQEvent:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "event",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEvent#kind:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "kind: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "'event'"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "kind",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEvent#payload:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "payload: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "any"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "payload",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@gongt/qqbot!IPCMessageEventControl:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface IPCMessageEventControl "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCMessageEventControl",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEventControl#action:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "action: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageEventControlAction",
+                  "canonicalReference": "@gongt/qqbot!IPCMessageEventControlAction:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "action",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEventControl#event:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "QQEvent",
+                  "canonicalReference": "@gongt/qqbot!QQEvent:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "event",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEventControl#kind:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "kind: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "'event-manage'"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "kind",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@gongt/qqbot!IPCMessageEventControlAction:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum IPCMessageEventControlAction "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCMessageEventControlAction",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEventControlAction.DisableListen:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "DisableListen = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "1"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DisableListen",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEventControlAction.EnableListen:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "EnableListen = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "0"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "EnableListen",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@gongt/qqbot!IPCMessageLifecycle:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface IPCMessageLifecycle "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCMessageLifecycle",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageLifecycle#action:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "action: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "IPCMessageLifecycleAction",
+                  "canonicalReference": "@gongt/qqbot!IPCMessageLifecycleAction:enum"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "action",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@gongt/qqbot!IPCMessageLifecycle#kind:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "kind: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "'lifecycle'"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "kind",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@gongt/qqbot!IPCMessageLifecycleAction:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum IPCMessageLifecycleAction "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCMessageLifecycleAction",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@gongt/qqbot!IPCMessageLifecycleAction.Start:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Start = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "0"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Start",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@gongt/qqbot!IPCMessageLifecycleAction.Stop:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Stop = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "1"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Stop",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@gongt/qqbot!IPCServerMessage:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type IPCServerMessage = "
+            },
+            {
+              "kind": "Reference",
+              "text": "IPCMessageAck",
+              "canonicalReference": "@gongt/qqbot!IPCMessageAck:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "IPCMessageEvent",
+              "canonicalReference": "@gongt/qqbot!IPCMessageEvent:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "IPCMessageLifecycle",
+              "canonicalReference": "@gongt/qqbot!IPCMessageLifecycle:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "IPCServerMessage",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 6
+          }
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@gongt/qqbot!MessageChain:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -4087,7 +4993,7 @@
             {
               "kind": "Reference",
               "text": "MessageType",
-              "canonicalReference": "@gongt/qqbot-server!MessageType:type"
+              "canonicalReference": "@gongt/qqbot!MessageType:type"
             },
             {
               "kind": "Content",
@@ -4107,7 +5013,7 @@
         },
         {
           "kind": "Namespace",
-          "canonicalReference": "@gongt/qqbot-server!MessageType:namespace",
+          "canonicalReference": "@gongt/qqbot!MessageType:namespace",
           "docComment": "",
           "excerptTokens": [
             {
@@ -4120,7 +5026,7 @@
           "members": [
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.App:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.App:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4133,7 +5039,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.App#content:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.App#content:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4159,7 +5065,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.App#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.App#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4188,7 +5094,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.At:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.At:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4201,7 +5107,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.At#dispaly:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.At#dispaly:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4227,7 +5133,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.At#target:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.At#target:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4253,7 +5159,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.At#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.At#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4282,7 +5188,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.AtAll:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.AtAll:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4295,7 +5201,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.AtAll#dispaly:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.AtAll#dispaly:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4321,7 +5227,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.AtAll#target:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.AtAll#target:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4347,7 +5253,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.AtAll#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.AtAll#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4376,7 +5282,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Dice:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Dice:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4389,7 +5295,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Dice#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Dice#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4415,7 +5321,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Dice#value:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Dice#value:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4444,7 +5350,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Face:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Face:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4457,7 +5363,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Face#faceId:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Face#faceId:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4483,7 +5389,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Face#name:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Face#name:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4509,7 +5415,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Face#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Face#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4538,7 +5444,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.File:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.File:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4551,7 +5457,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.File#id:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.File#id:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4577,7 +5483,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.File#name:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.File#name:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4603,7 +5509,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.File#size:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.File#size:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4629,7 +5535,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.File#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.File#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4658,7 +5564,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.FlashImage:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.FlashImage:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4677,7 +5583,7 @@
                 {
                   "kind": "Reference",
                   "text": "Image",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Image:interface"
+                  "canonicalReference": "@gongt/qqbot!MessageType.Image:interface"
                 },
                 {
                   "kind": "Content",
@@ -4689,7 +5595,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.FlashImage#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.FlashImage#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4723,7 +5629,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.ForwardMessage:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.ForwardMessage:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4736,7 +5642,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.ForwardMessage#nodeList:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.ForwardMessage#nodeList:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4750,7 +5656,7 @@
                     {
                       "kind": "Reference",
                       "text": "MessageChain",
-                      "canonicalReference": "@gongt/qqbot-server!MessageChain:type"
+                      "canonicalReference": "@gongt/qqbot!MessageChain:type"
                     },
                     {
                       "kind": "Content",
@@ -4771,7 +5677,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.ForwardMessage#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.ForwardMessage#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4800,7 +5706,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Image:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Image:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4813,7 +5719,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Image#base64:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Image#base64:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4839,7 +5745,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Image#imageId:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Image#imageId:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4865,7 +5771,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Image#path:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Image#path:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4891,7 +5797,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Image#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Image#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4917,7 +5823,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Image#url:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Image#url:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4946,7 +5852,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Json:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Json:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4959,7 +5865,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Json#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Json#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -4985,7 +5891,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Json#xml:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Json#xml:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5014,7 +5920,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.MiraiCode:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.MiraiCode:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5027,7 +5933,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MiraiCode#code:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MiraiCode#code:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5053,7 +5959,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MiraiCode#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MiraiCode#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5082,7 +5988,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.MusicShare:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5095,7 +6001,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare#brief:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MusicShare#brief:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5121,7 +6027,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare#jumpUrl:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MusicShare#jumpUrl:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5147,7 +6053,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare#kind:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MusicShare#kind:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5173,7 +6079,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare#musicUrl:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MusicShare#musicUrl:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5199,7 +6105,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare#pictureUrl:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MusicShare#pictureUrl:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5225,7 +6131,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare#summary:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MusicShare#summary:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5251,7 +6157,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare#title:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MusicShare#title:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5277,7 +6183,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.MusicShare#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5306,7 +6212,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Plain:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Plain:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5319,7 +6225,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Plain#text:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Plain#text:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5345,7 +6251,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Plain#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Plain#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5374,7 +6280,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Poke:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Poke:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5387,7 +6293,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Poke#name:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Poke#name:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5413,7 +6319,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Poke#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Poke#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5442,7 +6348,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Quote:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Quote:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5455,7 +6361,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Quote#groupId:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Quote#groupId:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5481,7 +6387,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Quote#id:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Quote#id:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5507,7 +6413,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Quote#origin:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Quote#origin:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5517,7 +6423,7 @@
                     {
                       "kind": "Reference",
                       "text": "MessageChain",
-                      "canonicalReference": "@gongt/qqbot-server!MessageChain:type"
+                      "canonicalReference": "@gongt/qqbot!MessageChain:type"
                     },
                     {
                       "kind": "Content",
@@ -5534,7 +6440,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Quote#senderId:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Quote#senderId:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5560,7 +6466,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Quote#targetId:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Quote#targetId:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5586,7 +6492,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Quote#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Quote#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5615,7 +6521,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Source:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Source:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5628,7 +6534,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Source#id:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Source#id:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5654,7 +6560,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Source#time:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Source#time:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5680,7 +6586,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Source#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Source#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5709,7 +6615,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Voice:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Voice:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5722,7 +6628,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Voice#base64:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Voice#base64:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5748,7 +6654,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Voice#path:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Voice#path:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5774,7 +6680,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Voice#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Voice#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5800,7 +6706,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Voice#url:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Voice#url:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5826,7 +6732,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Voice#voiceId:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Voice#voiceId:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5855,7 +6761,7 @@
             },
             {
               "kind": "Interface",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Xml:interface",
+              "canonicalReference": "@gongt/qqbot!MessageType.Xml:interface",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -5868,7 +6774,7 @@
               "members": [
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Xml#type:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Xml#type:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5894,7 +6800,7 @@
                 },
                 {
                   "kind": "PropertySignature",
-                  "canonicalReference": "@gongt/qqbot-server!MessageType.Xml#xml:member",
+                  "canonicalReference": "@gongt/qqbot!MessageType.Xml#xml:member",
                   "docComment": "",
                   "excerptTokens": [
                     {
@@ -5925,7 +6831,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@gongt/qqbot-server!MessageType:type",
+          "canonicalReference": "@gongt/qqbot!MessageType:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -5935,7 +6841,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Face",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Face:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Face:interface"
             },
             {
               "kind": "Content",
@@ -5944,7 +6850,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Source",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Source:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Source:interface"
             },
             {
               "kind": "Content",
@@ -5953,7 +6859,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Quote",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Quote:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Quote:interface"
             },
             {
               "kind": "Content",
@@ -5962,7 +6868,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.At",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.At:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.At:interface"
             },
             {
               "kind": "Content",
@@ -5971,7 +6877,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.AtAll",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.AtAll:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.AtAll:interface"
             },
             {
               "kind": "Content",
@@ -5980,7 +6886,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Plain",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Plain:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Plain:interface"
             },
             {
               "kind": "Content",
@@ -5989,7 +6895,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Image",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Image:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Image:interface"
             },
             {
               "kind": "Content",
@@ -5998,7 +6904,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.FlashImage",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.FlashImage:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.FlashImage:interface"
             },
             {
               "kind": "Content",
@@ -6007,7 +6913,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Voice",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Voice:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Voice:interface"
             },
             {
               "kind": "Content",
@@ -6016,7 +6922,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Xml",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Xml:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Xml:interface"
             },
             {
               "kind": "Content",
@@ -6025,7 +6931,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Json",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Json:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Json:interface"
             },
             {
               "kind": "Content",
@@ -6034,7 +6940,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.App",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.App:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.App:interface"
             },
             {
               "kind": "Content",
@@ -6043,7 +6949,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Poke",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Poke:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Poke:interface"
             },
             {
               "kind": "Content",
@@ -6052,7 +6958,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.Dice",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.Dice:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.Dice:interface"
             },
             {
               "kind": "Content",
@@ -6061,7 +6967,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.MusicShare",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.MusicShare:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.MusicShare:interface"
             },
             {
               "kind": "Content",
@@ -6070,7 +6976,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.ForwardMessage",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.ForwardMessage:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.ForwardMessage:interface"
             },
             {
               "kind": "Content",
@@ -6079,7 +6985,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.File",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.File:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.File:interface"
             },
             {
               "kind": "Content",
@@ -6088,7 +6994,7 @@
             {
               "kind": "Reference",
               "text": "MessageType.MiraiCode",
-              "canonicalReference": "@gongt/qqbot-server!MessageType.MiraiCode:interface"
+              "canonicalReference": "@gongt/qqbot!MessageType.MiraiCode:interface"
             },
             {
               "kind": "Content",
@@ -6104,7 +7010,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@gongt/qqbot-server!NetworkError:class",
+          "canonicalReference": "@gongt/qqbot!NetworkError:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -6132,7 +7038,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@gongt/qqbot-server!QQApiCode:enum",
+          "canonicalReference": "@gongt/qqbot!QQApiCode:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -6145,7 +7051,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.BAD_ARGUMENT:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.BAD_ARGUMENT:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6166,7 +7072,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.BOT_MUTED:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.BOT_MUTED:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6187,7 +7093,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.MESSAGE_TOO_LARGE:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.MESSAGE_TOO_LARGE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6208,7 +7114,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.NO_PERMISSION:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.NO_PERMISSION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6229,7 +7135,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.NOT_FOUND_BOT:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.NOT_FOUND_BOT:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6250,7 +7156,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.NOT_FOUND_FILE:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.NOT_FOUND_FILE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6271,7 +7177,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.NOT_FOUNT_TARGET:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.NOT_FOUNT_TARGET:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6292,7 +7198,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.OK:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.OK:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6313,7 +7219,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.SESSION_INVALID:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.SESSION_INVALID:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6334,7 +7240,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.SESSION_NOT_ACTIVE:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.SESSION_NOT_ACTIVE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6355,7 +7261,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQApiCode.VERIFY_KEY:member",
+              "canonicalReference": "@gongt/qqbot!QQApiCode.VERIFY_KEY:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6378,7 +7284,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@gongt/qqbot-server!QQCommand:enum",
+          "canonicalReference": "@gongt/qqbot!QQCommand:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -6391,7 +7297,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.About:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.About:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6412,7 +7318,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.BotProfile:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.BotProfile:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6433,7 +7339,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.DeleteFriend:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.DeleteFriend:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6454,7 +7360,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.FileDelete:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.FileDelete:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6475,7 +7381,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.FileInfo:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.FileInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6496,7 +7402,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.FileList:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.FileList:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6517,7 +7423,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.FileMkdir:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.FileMkdir:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6538,7 +7444,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.FileMove:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.FileMove:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6559,7 +7465,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.FileRename:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.FileRename:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6580,7 +7486,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.FriendList:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.FriendList:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6601,7 +7507,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.FriendProfile:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.FriendProfile:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6622,7 +7528,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.GetGroupConfig:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.GetGroupConfig:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6643,7 +7549,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.GetMemberInfo:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.GetMemberInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6664,7 +7570,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.GroupList:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.GroupList:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6685,7 +7591,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.Kick:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.Kick:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6706,7 +7612,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.MemberList:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.MemberList:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6727,7 +7633,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.MemberProfile:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.MemberProfile:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6748,7 +7654,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.MessageFromId:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.MessageFromId:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6769,7 +7675,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.Mute:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.Mute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6790,7 +7696,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.MuteAll:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.MuteAll:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6811,7 +7717,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.Quit:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.Quit:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6832,7 +7738,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.Recall:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.Recall:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6853,7 +7759,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.RespBotInvitedJoinGroupRequestEvent:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.RespBotInvitedJoinGroupRequestEvent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6874,7 +7780,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.RespMemberJoinRequestEvent:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.RespMemberJoinRequestEvent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6895,7 +7801,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.RespNewFriendRequestEvent:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.RespNewFriendRequestEvent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6916,7 +7822,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.SendFriendMessage:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.SendFriendMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6937,7 +7843,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.SendGroupMessage:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.SendGroupMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6958,7 +7864,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.SendNudge:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.SendNudge:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -6979,7 +7885,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.SendTempMessage:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.SendTempMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7000,7 +7906,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.SetEssence:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.SetEssence:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7021,7 +7927,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.Unmute:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.Unmute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7042,7 +7948,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.UnmuteAll:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.UnmuteAll:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7063,7 +7969,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.UpdateGroupConfig:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.UpdateGroupConfig:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7084,7 +7990,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQCommand.UpdateMemberInfo:member",
+              "canonicalReference": "@gongt/qqbot!QQCommand.UpdateMemberInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7107,7 +8013,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@gongt/qqbot-server!QQEvent:enum",
+          "canonicalReference": "@gongt/qqbot!QQEvent:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -7120,7 +8026,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotGroupPermissionChange:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotGroupPermissionChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7141,7 +8047,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotInvitedJoinGroupRequest:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotInvitedJoinGroupRequest:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7162,7 +8068,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotJoinGroup:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotJoinGroup:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7183,7 +8089,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotLeaveActive:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotLeaveActive:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7204,7 +8110,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotLeaveKick:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotLeaveKick:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7225,7 +8131,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotMute:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotMute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7246,7 +8152,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotOfflineActive:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotOfflineActive:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7267,7 +8173,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotOfflineDropped:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotOfflineDropped:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7288,7 +8194,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotOfflineForce:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotOfflineForce:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7309,7 +8215,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotOnline:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotOnline:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7330,7 +8236,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotRelogin:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotRelogin:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7351,7 +8257,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.BotUnmute:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.BotUnmute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7372,7 +8278,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.CommandExecuted:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.CommandExecuted:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7393,7 +8299,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.FriendInputStatusChanged:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.FriendInputStatusChanged:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7414,7 +8320,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.FriendMessage:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.FriendMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7435,7 +8341,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.FriendNickChanged:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.FriendNickChanged:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7456,7 +8362,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.FriendRecall:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.FriendRecall:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7477,7 +8383,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.GroupAllowAnonymousChat:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.GroupAllowAnonymousChat:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7498,7 +8404,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.GroupAllowConfessTalk:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.GroupAllowConfessTalk:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7519,7 +8425,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.GroupAllowMemberInvite:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.GroupAllowMemberInvite:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7540,7 +8446,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.GroupEntranceAnnouncementChange:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.GroupEntranceAnnouncementChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7561,7 +8467,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.GroupMessage:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.GroupMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7582,7 +8488,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.GroupMuteAll:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.GroupMuteAll:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7603,7 +8509,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.GroupNameChange:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.GroupNameChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7624,7 +8530,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.GroupRecall:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.GroupRecall:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7645,7 +8551,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberCardChange:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberCardChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7666,7 +8572,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberHonorChange:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberHonorChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7687,7 +8593,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberJoin:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberJoin:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7708,7 +8614,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberJoinRequest:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberJoinRequest:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7729,7 +8635,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberLeaveKick:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberLeaveKick:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7750,7 +8656,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberLeaveQuit:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberLeaveQuit:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7771,7 +8677,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberMute:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberMute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7792,7 +8698,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberPermissionChange:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberPermissionChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7813,7 +8719,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberSpecialTitleChange:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberSpecialTitleChange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7834,7 +8740,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.MemberUnmute:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.MemberUnmute:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7855,7 +8761,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.NewFriendRequest:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.NewFriendRequest:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7876,7 +8782,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.Nudge:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.Nudge:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7897,7 +8803,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.OtherClientMessage:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.OtherClientMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7918,7 +8824,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.StrangerMessage:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.StrangerMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7939,7 +8845,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@gongt/qqbot-server!QQEvent.TempMessage:member",
+              "canonicalReference": "@gongt/qqbot!QQEvent.TempMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7962,7 +8868,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!QQFriendMessage:interface",
+          "canonicalReference": "@gongt/qqbot!QQFriendMessage:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -7975,7 +8881,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQFriendMessage#messageChain:member",
+              "canonicalReference": "@gongt/qqbot!QQFriendMessage#messageChain:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -7985,7 +8891,7 @@
                 {
                   "kind": "Reference",
                   "text": "MessageChain",
-                  "canonicalReference": "@gongt/qqbot-server!MessageChain:type"
+                  "canonicalReference": "@gongt/qqbot!MessageChain:type"
                 },
                 {
                   "kind": "Content",
@@ -8002,7 +8908,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQFriendMessage#sender:member",
+              "canonicalReference": "@gongt/qqbot!QQFriendMessage#sender:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8012,7 +8918,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQFriendMessageSender",
-                  "canonicalReference": "@gongt/qqbot-server!QQFriendMessageSender:interface"
+                  "canonicalReference": "@gongt/qqbot!QQFriendMessageSender:interface"
                 },
                 {
                   "kind": "Content",
@@ -8032,7 +8938,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!QQFriendMessageSender:interface",
+          "canonicalReference": "@gongt/qqbot!QQFriendMessageSender:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8045,7 +8951,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQFriendMessageSender#id:member",
+              "canonicalReference": "@gongt/qqbot!QQFriendMessageSender#id:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8071,7 +8977,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQFriendMessageSender#nickname:member",
+              "canonicalReference": "@gongt/qqbot!QQFriendMessageSender#nickname:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8097,7 +9003,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQFriendMessageSender#remark:member",
+              "canonicalReference": "@gongt/qqbot!QQFriendMessageSender#remark:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8126,7 +9032,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!QQGroupMessage:interface",
+          "canonicalReference": "@gongt/qqbot!QQGroupMessage:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8139,7 +9045,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessage#messageChain:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessage#messageChain:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8149,7 +9055,7 @@
                 {
                   "kind": "Reference",
                   "text": "MessageChain",
-                  "canonicalReference": "@gongt/qqbot-server!MessageChain:type"
+                  "canonicalReference": "@gongt/qqbot!MessageChain:type"
                 },
                 {
                   "kind": "Content",
@@ -8166,7 +9072,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessage#sender:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessage#sender:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8176,7 +9082,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQGroupMessageSender",
-                  "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender:interface"
+                  "canonicalReference": "@gongt/qqbot!QQGroupMessageSender:interface"
                 },
                 {
                   "kind": "Content",
@@ -8196,7 +9102,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender:interface",
+          "canonicalReference": "@gongt/qqbot!QQGroupMessageSender:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8209,7 +9115,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender#group:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessageSender#group:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8223,7 +9129,7 @@
                 {
                   "kind": "Reference",
                   "text": "GroupPermission",
-                  "canonicalReference": "@gongt/qqbot-server!GroupPermission:enum"
+                  "canonicalReference": "@gongt/qqbot!GroupPermission:enum"
                 },
                 {
                   "kind": "Content",
@@ -8244,7 +9150,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender#id:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessageSender#id:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8270,7 +9176,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender#joinTimestamp:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessageSender#joinTimestamp:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8296,7 +9202,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender#lastSpeakTimestamp:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessageSender#lastSpeakTimestamp:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8322,7 +9228,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender#memberName:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessageSender#memberName:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8348,7 +9254,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender#muteTimeRemaining:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessageSender#muteTimeRemaining:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8374,7 +9280,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender#permission:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessageSender#permission:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8384,7 +9290,7 @@
                 {
                   "kind": "Reference",
                   "text": "GroupPermission",
-                  "canonicalReference": "@gongt/qqbot-server!GroupPermission:enum"
+                  "canonicalReference": "@gongt/qqbot!GroupPermission:enum"
                 },
                 {
                   "kind": "Content",
@@ -8401,7 +9307,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQGroupMessageSender#specialTitle:member",
+              "canonicalReference": "@gongt/qqbot!QQGroupMessageSender#specialTitle:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8430,7 +9336,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@gongt/qqbot-server!QQMessageType:enum",
+          "canonicalReference": "@gongt/qqbot!QQMessageType:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8444,7 +9350,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!QQSyncMessage:interface",
+          "canonicalReference": "@gongt/qqbot!QQSyncMessage:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8457,7 +9363,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQSyncMessage#messageChain:member",
+              "canonicalReference": "@gongt/qqbot!QQSyncMessage#messageChain:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8467,7 +9373,7 @@
                 {
                   "kind": "Reference",
                   "text": "MessageChain",
-                  "canonicalReference": "@gongt/qqbot-server!MessageChain:type"
+                  "canonicalReference": "@gongt/qqbot!MessageChain:type"
                 },
                 {
                   "kind": "Content",
@@ -8484,7 +9390,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQSyncMessage#sender:member",
+              "canonicalReference": "@gongt/qqbot!QQSyncMessage#sender:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8494,7 +9400,7 @@
                 {
                   "kind": "Reference",
                   "text": "QQSyncMessageSender",
-                  "canonicalReference": "@gongt/qqbot-server!QQSyncMessageSender:interface"
+                  "canonicalReference": "@gongt/qqbot!QQSyncMessageSender:interface"
                 },
                 {
                   "kind": "Content",
@@ -8514,7 +9420,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!QQSyncMessageSender:interface",
+          "canonicalReference": "@gongt/qqbot!QQSyncMessageSender:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8527,7 +9433,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQSyncMessageSender#id:member",
+              "canonicalReference": "@gongt/qqbot!QQSyncMessageSender#id:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8553,7 +9459,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!QQSyncMessageSender#platform:member",
+              "canonicalReference": "@gongt/qqbot!QQSyncMessageSender#platform:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8582,7 +9488,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@gongt/qqbot-server!TODO:type",
+          "canonicalReference": "@gongt/qqbot!TODO:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8607,7 +9513,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@gongt/qqbot-server!WebTerminalConsole:class",
+          "canonicalReference": "@gongt/qqbot!WebTerminalConsole:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8617,7 +9523,7 @@
             {
               "kind": "Reference",
               "text": "WrappedConsole",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole:class"
+              "canonicalReference": "@gongt/qqbot!WrappedConsole:class"
             },
             {
               "kind": "Content",
@@ -8629,7 +9535,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@gongt/qqbot-server!WebTerminalConsole:constructor(1)",
+              "canonicalReference": "@gongt/qqbot!WebTerminalConsole:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `WebTerminalConsole` class\n */\n",
               "excerptTokens": [
                 {
@@ -8647,7 +9553,7 @@
                 {
                   "kind": "Reference",
                   "text": "WrappedConsoleOptions",
-                  "canonicalReference": "@gongt/qqbot-server!WrappedConsoleOptions:interface"
+                  "canonicalReference": "@gongt/qqbot!WrappedConsoleOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -8656,7 +9562,7 @@
                 {
                   "kind": "Reference",
                   "text": "WebConsoleOptions",
-                  "canonicalReference": "@gongt/qqbot-server!~WebConsoleOptions:interface"
+                  "canonicalReference": "@gongt/qqbot!~WebConsoleOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -8684,7 +9590,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@gongt/qqbot-server!WebTerminalConsole#processColorLabel:member(1)",
+              "canonicalReference": "@gongt/qqbot!WebTerminalConsole#processColorLabel:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8781,7 +9687,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@gongt/qqbot-server!WrappedConsole:class",
+          "canonicalReference": "@gongt/qqbot!WrappedConsole:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -8794,7 +9700,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole:constructor(1)",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `WrappedConsole` class\n */\n",
               "excerptTokens": [
                 {
@@ -8812,7 +9718,7 @@
                 {
                   "kind": "Reference",
                   "text": "WrappedConsoleOptions",
-                  "canonicalReference": "@gongt/qqbot-server!WrappedConsoleOptions:interface"
+                  "canonicalReference": "@gongt/qqbot!WrappedConsoleOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -8840,7 +9746,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#assert:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#assert:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8872,7 +9778,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#bind:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#bind:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8899,7 +9805,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#clear:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#clear:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8931,7 +9837,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#count:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#count:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8963,7 +9869,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#countReset:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#countReset:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -8995,7 +9901,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#createPrefix:member(1)",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#createPrefix:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9040,7 +9946,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#debug:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#debug:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9072,7 +9978,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#dir:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#dir:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9104,7 +10010,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#error:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#error:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9136,7 +10042,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#group:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#group:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9168,7 +10074,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#groupCollapsed:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#groupCollapsed:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9200,7 +10106,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#groupEnd:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#groupEnd:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9232,7 +10138,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#info:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#info:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9264,7 +10170,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#log:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#log:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9296,7 +10202,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#parent:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#parent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9324,7 +10230,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#processColorLabel:member(1)",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#processColorLabel:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9414,7 +10320,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#success:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#success:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9446,7 +10352,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#table:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#table:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9478,7 +10384,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#time:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#time:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9510,7 +10416,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#timeEnd:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#timeEnd:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9542,7 +10448,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#timeLog:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#timeLog:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9574,7 +10480,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#title:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#title:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9601,7 +10507,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#trace:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#trace:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9633,7 +10539,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#uncolor:member(1)",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#uncolor:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9723,7 +10629,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#warn:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#warn:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9755,7 +10661,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole#wrap:member(1)",
+              "canonicalReference": "@gongt/qqbot!WrappedConsole#wrap:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9843,7 +10749,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@gongt/qqbot-server!WrappedConsoleOptions:interface",
+          "canonicalReference": "@gongt/qqbot!WrappedConsoleOptions:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -9856,7 +10762,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsoleOptions#bind:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsoleOptions#bind:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9882,7 +10788,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsoleOptions#parent:member",
+              "canonicalReference": "@gongt/qqbot!WrappedConsoleOptions#parent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -9912,7 +10818,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@gongt/qqbot-server!WrappedTerminalConsole:class",
+          "canonicalReference": "@gongt/qqbot!WrappedTerminalConsole:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -9922,7 +10828,7 @@
             {
               "kind": "Reference",
               "text": "WrappedConsole",
-              "canonicalReference": "@gongt/qqbot-server!WrappedConsole:class"
+              "canonicalReference": "@gongt/qqbot!WrappedConsole:class"
             },
             {
               "kind": "Content",
@@ -9934,7 +10840,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@gongt/qqbot-server!WrappedTerminalConsole:constructor(1)",
+              "canonicalReference": "@gongt/qqbot!WrappedTerminalConsole:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `WrappedTerminalConsole` class\n */\n",
               "excerptTokens": [
                 {
@@ -9952,7 +10858,7 @@
                 {
                   "kind": "Reference",
                   "text": "WrappedConsoleOptions",
-                  "canonicalReference": "@gongt/qqbot-server!WrappedConsoleOptions:interface"
+                  "canonicalReference": "@gongt/qqbot!WrappedConsoleOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -9961,7 +10867,7 @@
                 {
                   "kind": "Reference",
                   "text": "TerminalConsoleOptions",
-                  "canonicalReference": "@gongt/qqbot-server!~TerminalConsoleOptions:interface"
+                  "canonicalReference": "@gongt/qqbot!~TerminalConsoleOptions:interface"
                 },
                 {
                   "kind": "Content",
@@ -9989,7 +10895,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@gongt/qqbot-server!WrappedTerminalConsole#processColorLabel:member(1)",
+              "canonicalReference": "@gongt/qqbot!WrappedTerminalConsole#processColorLabel:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {

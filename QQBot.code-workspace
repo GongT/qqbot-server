@@ -8,11 +8,11 @@
 		{ "path": "plugins", "name": "插件" }
 	],
 	"settings": {
-		"typescript.tsdk": "${workspacePath}/library/node_modules/typescript/lib",
+		"typescript.tsdk": "./node_modules/typescript/lib",
 		"files.associations": {
 			"*.json": "jsonc"
 		},
-		"prettier.configPath": "${workspacePath}/library/.prettierrc.js"
+		"prettier.configPath": "./library/.prettierrc.js"
 	},
 	"extensions": {
 		"recommendations": ["visualstudioexptteam.vscodeintellicode", "mike-co.import-sorter"]

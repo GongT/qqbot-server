@@ -1,5 +1,5 @@
 {
-	"name": "@gongt/qqbot-server-private",
+	"name": "@gongt/qqbot-server",
 	"private": true,
 	"version": "0.0.0",
 	"description": "",
@@ -10,18 +10,21 @@
 		"prepack": "build-script rebuild",
 		"test": "build-script test",
 		"upgrade": "build-script upgrade",
-		"watch": "build-script watch"
+		"watch": "build-script watch",
+		"start": "node bin.js"
 	},
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
-		"@gongt/qqbot-server": "*",
+		"@gongt/qqbot": "*",
 		"@idlebox/common": "^1.1.8",
 		"@idlebox/node": "^1.0.29",
 		"async-lock": "^1.3.0",
 		"chokidar": "^3.5.2",
 		"debounce": "^1.2.1",
+		"execa": "^5.1.1",
 		"source-map-support": "^0.5.19",
+		"split2": "^3.2.2",
 		"tslib": "^2.3.1"
 	},
 	"devDependencies": {
@@ -31,6 +34,7 @@
 		"@types/async-lock": "^1.1.3",
 		"@types/debounce": "^1.2.0",
 		"@types/node": "^16.7.2",
+		"@types/split2": "^3.2.1",
 		"gulp": "^4.0.2",
 		"prettier": "latest",
 		"ts-node": "^10.2.1",

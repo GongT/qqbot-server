@@ -1,9 +1,7 @@
 /// <reference types="node" />
 
-import { Disposable } from '@idlebox/common';
+import { ChildProcess } from 'child_process';
 import { EventRegister } from '@idlebox/common';
-import { IProgressHolder } from '@idlebox/common';
-import WebSocket from 'ws';
 
 export declare class ApiError extends Error {
     readonly code: QQApiCode;
@@ -17,63 +15,93 @@ export declare enum ColorKind {
     DETECT = 3
 }
 
-declare type CommandRegistry = {
+export declare interface CommandRegistry extends _CommandRegistry {
+    about: (input: TODO) => Promise<TODO>;
+    messageFromId: (input: TODO) => Promise<TODO>;
+    friendList: (input: TODO) => Promise<TODO>;
+    groupList: (input: TODO) => Promise<TODO>;
+    memberList: (input: TODO) => Promise<TODO>;
+    botProfile: (input: TODO) => Promise<TODO>;
+    friendProfile: (input: TODO) => Promise<TODO>;
+    memberProfile: (input: TODO) => Promise<TODO>;
+    sendFriendMessage: (input: TODO) => Promise<TODO>;
+    sendGroupMessage: (input: TODO) => Promise<TODO>;
+    sendTempMessage: (input: TODO) => Promise<TODO>;
+    sendNudge: (input: TODO) => Promise<TODO>;
+    recall: (input: TODO) => Promise<TODO>;
+    fileList: (input: TODO) => Promise<TODO>;
+    fileInfo: (input: TODO) => Promise<TODO>;
+    fileMkdir: (input: TODO) => Promise<TODO>;
+    fileDelete: (input: TODO) => Promise<TODO>;
+    fileMove: (input: TODO) => Promise<TODO>;
+    fileRename: (input: TODO) => Promise<TODO>;
+    deleteFriend: (input: TODO) => Promise<TODO>;
+    mute: (input: TODO) => Promise<TODO>;
+    unmute: (input: TODO) => Promise<TODO>;
+    kick: (input: TODO) => Promise<TODO>;
+    quit: (input: TODO) => Promise<TODO>;
+    muteAll: (input: TODO) => Promise<TODO>;
+    unmuteAll: (input: TODO) => Promise<TODO>;
+    setEssence: (input: TODO) => Promise<TODO>;
+    getGroupConfig: (input: TODO) => Promise<TODO>;
+    updateGroupConfig: (input: TODO) => Promise<TODO>;
+    getMemberInfo: (input: TODO) => Promise<TODO>;
+    updateMemberInfo: (input: TODO) => Promise<TODO>;
+    respNewFriendRequestEvent: (input: TODO) => Promise<TODO>;
+    respMemberJoinRequestEvent: (input: TODO) => Promise<TODO>;
+    respBotInvitedJoinGroupRequestEvent: (input: TODO) => Promise<TODO>;
+}
+
+declare type _CommandRegistry = {
     [Property in keyof typeof QQCommand as Uncapitalize<Property>]: ICommandCallback<unknown, unknown>;
 };
 
-export declare function createServerUrl({ address, verifyKey, sessionKey, qq }: IConnectOptions): string;
-
-declare type EventRegistry = {
-    [Property in keyof typeof QQEvent as `on${Capitalize<Property>}`]: EventRegister<any>;
-};
-
-export declare class Events extends Disposable implements EventRegistry {
-    private readonly events;
-    private readonly _onUnknownType;
-    readonly onUnknownType: EventRegister<any>;
-    readonly onBotOnline: EventRegister<TODO_2>;
-    readonly onBotOfflineActive: EventRegister<TODO_2>;
-    readonly onBotOfflineForce: EventRegister<TODO_2>;
-    readonly onBotOfflineDropped: EventRegister<TODO_2>;
-    readonly onBotRelogin: EventRegister<TODO_2>;
-    readonly onFriendInputStatusChanged: EventRegister<TODO_2>;
-    readonly onFriendNickChanged: EventRegister<TODO_2>;
-    readonly onBotGroupPermissionChange: EventRegister<TODO_2>;
-    readonly onBotMute: EventRegister<TODO_2>;
-    readonly onBotUnmute: EventRegister<TODO_2>;
-    readonly onBotJoinGroup: EventRegister<TODO_2>;
-    readonly onBotLeaveActive: EventRegister<TODO_2>;
-    readonly onBotLeaveKick: EventRegister<TODO_2>;
-    readonly onGroupRecall: EventRegister<TODO_2>;
-    readonly onFriendRecall: EventRegister<TODO_2>;
-    readonly onNudge: EventRegister<TODO_2>;
-    readonly onGroupNameChange: EventRegister<TODO_2>;
-    readonly onGroupEntranceAnnouncementChange: EventRegister<TODO_2>;
-    readonly onGroupMuteAll: EventRegister<TODO_2>;
-    readonly onGroupAllowAnonymousChat: EventRegister<TODO_2>;
-    readonly onGroupAllowConfessTalk: EventRegister<TODO_2>;
-    readonly onGroupAllowMemberInvite: EventRegister<TODO_2>;
-    readonly onMemberJoin: EventRegister<TODO_2>;
-    readonly onMemberLeaveKick: EventRegister<TODO_2>;
-    readonly onMemberLeaveQuit: EventRegister<TODO_2>;
-    readonly onMemberCardChange: EventRegister<TODO_2>;
-    readonly onMemberSpecialTitleChange: EventRegister<TODO_2>;
-    readonly onMemberPermissionChange: EventRegister<TODO_2>;
-    readonly onMemberMute: EventRegister<TODO_2>;
-    readonly onMemberUnmute: EventRegister<TODO_2>;
-    readonly onMemberHonorChange: EventRegister<TODO_2>;
-    readonly onNewFriendRequest: EventRegister<TODO_2>;
-    readonly onMemberJoinRequest: EventRegister<TODO_2>;
-    readonly onBotInvitedJoinGroupRequest: EventRegister<TODO_2>;
-    readonly onCommandExecuted: EventRegister<TODO_2>;
+export declare interface EventRegistry extends _EventRegistry {
+    readonly onBotOnline: EventRegister<TODO>;
+    readonly onBotOfflineActive: EventRegister<TODO>;
+    readonly onBotOfflineForce: EventRegister<TODO>;
+    readonly onBotOfflineDropped: EventRegister<TODO>;
+    readonly onBotRelogin: EventRegister<TODO>;
+    readonly onFriendInputStatusChanged: EventRegister<TODO>;
+    readonly onFriendNickChanged: EventRegister<TODO>;
+    readonly onBotGroupPermissionChange: EventRegister<TODO>;
+    readonly onBotMute: EventRegister<TODO>;
+    readonly onBotUnmute: EventRegister<TODO>;
+    readonly onBotJoinGroup: EventRegister<TODO>;
+    readonly onBotLeaveActive: EventRegister<TODO>;
+    readonly onBotLeaveKick: EventRegister<TODO>;
+    readonly onGroupRecall: EventRegister<TODO>;
+    readonly onFriendRecall: EventRegister<TODO>;
+    readonly onNudge: EventRegister<TODO>;
+    readonly onGroupNameChange: EventRegister<TODO>;
+    readonly onGroupEntranceAnnouncementChange: EventRegister<TODO>;
+    readonly onGroupMuteAll: EventRegister<TODO>;
+    readonly onGroupAllowAnonymousChat: EventRegister<TODO>;
+    readonly onGroupAllowConfessTalk: EventRegister<TODO>;
+    readonly onGroupAllowMemberInvite: EventRegister<TODO>;
+    readonly onMemberJoin: EventRegister<TODO>;
+    readonly onMemberLeaveKick: EventRegister<TODO>;
+    readonly onMemberLeaveQuit: EventRegister<TODO>;
+    readonly onMemberCardChange: EventRegister<TODO>;
+    readonly onMemberSpecialTitleChange: EventRegister<TODO>;
+    readonly onMemberPermissionChange: EventRegister<TODO>;
+    readonly onMemberMute: EventRegister<TODO>;
+    readonly onMemberUnmute: EventRegister<TODO>;
+    readonly onMemberHonorChange: EventRegister<TODO>;
+    readonly onNewFriendRequest: EventRegister<TODO>;
+    readonly onMemberJoinRequest: EventRegister<TODO>;
+    readonly onBotInvitedJoinGroupRequest: EventRegister<TODO>;
+    readonly onCommandExecuted: EventRegister<TODO>;
     readonly onFriendMessage: EventRegister<QQFriendMessage>;
     readonly onGroupMessage: EventRegister<QQGroupMessage>;
     readonly onTempMessage: EventRegister<QQGroupMessage>;
     readonly onStrangerMessage: EventRegister<QQFriendMessage>;
     readonly onOtherClientMessage: EventRegister<QQSyncMessage>;
-    constructor();
-    handleIncommingEvent(input: any): void;
 }
+
+declare type _EventRegistry = {
+    [Property in keyof typeof QQEvent as `on${Capitalize<Property>}`]: EventRegister<any>;
+};
 
 export declare const enum GroupPermission {
     Owner = "OWNER",
@@ -81,41 +109,71 @@ export declare const enum GroupPermission {
     Admin = "ADMINISTRATOR"
 }
 
-export declare class HeartbeatController {
-    private readonly client;
-    private timer?;
-    private increament;
-    constructor(client: MiraiWebsocketClient);
-    dispose(): void;
-    stop(): void;
-    start(): void;
-    private _heartbeat;
-    private heartbeat;
-}
-
 declare interface ICommandCallback<IT, OT> {
     (data: IT): Promise<OT>;
 }
 
-export declare interface IConnectOptions extends IConnectOptionsBot {
-    address: IUnixSocket | IServerPortPair;
-    verifyKey?: string;
-    reservedSyncId: string;
+export declare const ipcChannel: EventRegistry & CommandRegistry;
+
+export declare class IpcChannelServer {
+    protected readonly process: ChildProcess;
+    constructor(process: ChildProcess);
+    triggerEvent(): void;
+    onHandle(): void;
 }
 
-declare interface IConnectOptionsBot {
-    sessionKey?: string;
-    qq?: number;
+export declare type IPCClientMessage = IPCMessageWithId & (IPCMessageCommand | IPCMessageEventControl);
+
+export declare namespace IPCMessage {
+    export function isEventControl(t: IPCClientMessage): t is IPCMessageEventControl & IPCMessageWithId;
+    export function isEvent(t: IPCServerMessage): t is IPCMessageEvent;
+    export function isCommand(t: IPCClientMessage): t is IPCMessageCommand & IPCMessageWithId;
+    export function isLifecycle(t: IPCServerMessage): t is IPCMessageLifecycle;
+    export function isAck(t: IPCServerMessage): t is IPCMessageAck;
 }
 
-declare interface IServerPortPair {
-    server: string;
-    port: string;
-    subPath?: string;
-    ssl?: boolean;
+export declare interface IPCMessageAck {
+    kind: 'ack';
 }
 
-declare type IUnixSocket = string;
+export declare interface IPCMessageCommand {
+    kind: 'command';
+    event: QQCommand;
+    payload: any;
+}
+
+export declare interface IPCMessageEvent {
+    kind: 'event';
+    event: QQEvent;
+    payload: any;
+}
+
+export declare interface IPCMessageEventControl {
+    kind: 'event-manage';
+    action: IPCMessageEventControlAction;
+    event: QQEvent;
+}
+
+export declare enum IPCMessageEventControlAction {
+    EnableListen = 0,
+    DisableListen = 1
+}
+
+export declare interface IPCMessageLifecycle {
+    kind: 'lifecycle';
+    action: IPCMessageLifecycleAction;
+}
+
+export declare enum IPCMessageLifecycleAction {
+    Start = 0,
+    Stop = 1
+}
+
+declare interface IPCMessageWithId {
+    __id: string;
+}
+
+export declare type IPCServerMessage = IPCMessageAck | IPCMessageEvent | IPCMessageLifecycle;
 
 export declare type MessageChain = MessageType[];
 
@@ -223,80 +281,7 @@ export declare namespace MessageType {
 
 export declare type MessageType = MessageType.Face | MessageType.Source | MessageType.Quote | MessageType.At | MessageType.AtAll | MessageType.Plain | MessageType.Image | MessageType.FlashImage | MessageType.Voice | MessageType.Xml | MessageType.Json | MessageType.App | MessageType.Poke | MessageType.Dice | MessageType.MusicShare | MessageType.ForwardMessage | MessageType.File | MessageType.MiraiCode;
 
-export declare class MiraiClientCommander implements CommandRegistry {
-    private client;
-    private increament;
-    about: (input: TODO) => Promise<TODO>;
-    messageFromId: (input: TODO) => Promise<TODO>;
-    friendList: (input: TODO) => Promise<TODO>;
-    groupList: (input: TODO) => Promise<TODO>;
-    memberList: (input: TODO) => Promise<TODO>;
-    botProfile: (input: TODO) => Promise<TODO>;
-    friendProfile: (input: TODO) => Promise<TODO>;
-    memberProfile: (input: TODO) => Promise<TODO>;
-    sendFriendMessage: (input: TODO) => Promise<TODO>;
-    sendGroupMessage: (input: TODO) => Promise<TODO>;
-    sendTempMessage: (input: TODO) => Promise<TODO>;
-    sendNudge: (input: TODO) => Promise<TODO>;
-    recall: (input: TODO) => Promise<TODO>;
-    fileList: (input: TODO) => Promise<TODO>;
-    fileInfo: (input: TODO) => Promise<TODO>;
-    fileMkdir: (input: TODO) => Promise<TODO>;
-    fileDelete: (input: TODO) => Promise<TODO>;
-    fileMove: (input: TODO) => Promise<TODO>;
-    fileRename: (input: TODO) => Promise<TODO>;
-    deleteFriend: (input: TODO) => Promise<TODO>;
-    mute: (input: TODO) => Promise<TODO>;
-    unmute: (input: TODO) => Promise<TODO>;
-    kick: (input: TODO) => Promise<TODO>;
-    quit: (input: TODO) => Promise<TODO>;
-    muteAll: (input: TODO) => Promise<TODO>;
-    unmuteAll: (input: TODO) => Promise<TODO>;
-    setEssence: (input: TODO) => Promise<TODO>;
-    getGroupConfig: (input: TODO) => Promise<TODO>;
-    updateGroupConfig: (input: TODO) => Promise<TODO>;
-    getMemberInfo: (input: TODO) => Promise<TODO>;
-    updateMemberInfo: (input: TODO) => Promise<TODO>;
-    respNewFriendRequestEvent: (input: TODO) => Promise<TODO>;
-    respMemberJoinRequestEvent: (input: TODO) => Promise<TODO>;
-    respBotInvitedJoinGroupRequestEvent: (input: TODO) => Promise<TODO>;
-    constructor(client: MiraiWebsocketClient);
-    protected _send(cmd: string, sub: string | null, data: any): Promise<any>;
-}
-
-export declare class MiraiWebsocketClient {
-    private readonly connectionOptions;
-    private ws;
-    private quit;
-    private readonly promiseList;
-    private readonly heartbeat;
-    readonly events: Events;
-    readonly commander: MiraiClientCommander;
-    constructor(connectionOptions: IConnectOptions);
-    connect(): Promise<void>;
-    private onNetworkBreak;
-    private handler;
-    _sendRaw(syncId: string, command: string, subCommand: string | null, content: any): void;
-    createPromise(syncId: string, timeoutMs?: number): Promise<any>;
-    private _close;
-    dispose(): Promise<void> | undefined;
-}
-
 export declare class NetworkError extends Error {
-}
-
-export declare class PromiseList {
-    private readonly defaultTimeoutMs;
-    private readonly promiseList;
-    private timer?;
-    constructor(defaultTimeoutMs?: number);
-    create(id: string, timeoutMs?: number): Promise<any> & IProgressHolder<any, any>;
-    has(id: string): boolean;
-    done(id: string, data: any): void;
-    enableTimeout(): void;
-    disableTimeout(): void;
-    clear(): void;
-    dispose(): void;
 }
 
 export declare enum QQApiCode {
@@ -441,15 +426,11 @@ declare interface TerminalConsoleOptions {
     color?: boolean;
 }
 
-declare type TODO = unknown;
-
-declare type TODO_2 = unknown;
+export declare type TODO = unknown;
 
 declare interface WebConsoleOptions {
     color?: boolean;
 }
-
-export declare function websocketHandshake(connectionOptions: IConnectOptions): Promise<WebSocket>;
 
 export declare class WebTerminalConsole extends WrappedConsole {
     private readonly colors;

@@ -1,14 +1,15 @@
-import { resolve } from 'path';
 import { exists } from '@idlebox/node';
-import { AsyncDisposable } from '@idlebox/common';
-import { PLUGIN_ROOT } from './constants';
 import AsyncLock from 'async-lock';
+import { MiraiWebsocketClient } from './client';
+import { Plugin } from './processControl';
 
-export class PluginsController {
+export class PluginsHost {
 	private readonly pluginsRegistry = new Map<string, Plugin>();
 	private readonly lock = new AsyncLock();
 
-	constructor() {}
+	constructor(private readonly client: MiraiWebsocketClient) {
+		this.changeEventHandler = this.changeEventHandler.bind(this);
+	}
 
 	public async onChange(filename: string) {
 		const changed = new Set<Plugin>();
@@ -24,7 +25,7 @@ export class PluginsController {
 				deleted.add(plugin);
 			}
 		} else {
-			const plugin = new Plugin(changedFolder);
+			const plugin = new Plugin(changedFolder, this.client.events, this.client.commander);
 			if (await exists(plugin.entryFilePath)) {
 				this.pluginsRegistry.set(plugin.name, plugin);
 				changed.add(plugin);
@@ -35,11 +36,11 @@ export class PluginsController {
 			await item.reload();
 		}
 		for (const item of changed) {
-			await item.dispose();
+			await item.stop();
 		}
 	}
 
-	public changeEventHandler(_type: 'add' | 'change' | 'unlink', filename: string) {
+	public changeEventHandler(filename: string) {
 		this.lock
 			.acquire('change', async () => {
 				return this.onChange(filename);
@@ -48,15 +49,4 @@ export class PluginsController {
 				console.error('change event %s', e.stack);
 			});
 	}
-}
-
-class Plugin extends AsyncDisposable {
-	public readonly entryFilePath: string;
-
-	constructor(public readonly name: string) {
-		super();
-		this.entryFilePath = resolve(PLUGIN_ROOT, name, 'entry.js');
-	}
-
-	async reload() {}
 }

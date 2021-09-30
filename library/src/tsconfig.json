@@ -4,6 +4,7 @@
 		"outDir": "../lib",
 		"rootDir": ".",
 		"typeRoots": ["../node_modules/@types", "../node_modules"],
+		"types": ["node"],
 		"declaration": false,
 		"declarationMap": false
 	}

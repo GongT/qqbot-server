@@ -1,3 +1,6 @@
+// @ts-ignore
+export type TODO = unknown;
+
 export const enum GroupPermission {
 	Owner = 'OWNER',
 	Member = 'MEMBER',

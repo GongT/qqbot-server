@@ -1,5 +1,5 @@
-import { MiraiWebsocketClient } from '../index';
-import { WrappedTerminalConsole } from './logger/terminal';
+import { WrappedTerminalConsole } from '@gongt/qqbot';
+import { MiraiWebsocketClient } from './client';
 
 const console = new WrappedTerminalConsole('Heartbeat');
 
@@ -37,7 +37,7 @@ export class HeartbeatController {
 
 	private heartbeat() {
 		this._heartbeat().catch((e) => {
-			console.error('failed heartbeat: %s', e);
+			console.error('心跳命令失败 - %s', e);
 		});
 	}
 }

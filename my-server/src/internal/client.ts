@@ -1,13 +1,11 @@
+import { ApiError, QQApiCode, WrappedTerminalConsole } from '@gongt/qqbot';
 import { sleep } from '@idlebox/common';
 import WebSocket from 'ws';
-import { MiraiClientCommander } from './inc/commander';
-import { QQApiCode } from './inc/enum';
-import { ApiError } from './inc/error';
-import { Events } from './inc/events';
-import { HeartbeatController } from './inc/heartbeatController';
-import { WrappedTerminalConsole } from './inc/logger/terminal';
-import { PromiseList } from './inc/promiseList';
-import { IConnectOptions, websocketHandshake } from './inc/websocket';
+import { createServerCommandSender } from './commander';
+import { createServerEventReceiver } from './eventTrigger';
+import { HeartbeatController } from './heartbeatController';
+import { PromiseList } from './promiseList';
+import { IConnectOptions, websocketHandshake } from './websocket';
 
 const console = new WrappedTerminalConsole('Client');
 
@@ -17,8 +15,8 @@ export class MiraiWebsocketClient {
 
 	private readonly promiseList = new PromiseList();
 	private readonly heartbeat = new HeartbeatController(this);
-	public readonly events = new Events();
-	public readonly commander = new MiraiClientCommander(this);
+	public readonly events = createServerEventReceiver();
+	public readonly commander = createServerCommandSender(this);
 
 	constructor(private readonly connectionOptions: IConnectOptions) {
 		this.onNetworkBreak = this.onNetworkBreak.bind(this);
@@ -28,7 +26,7 @@ export class MiraiWebsocketClient {
 	async connect() {
 		if (this.quit) return;
 		if (this.ws) {
-			console.error('mirai client already connected');
+			console.error('重复调用connect');
 		}
 
 		const ws = await websocketHandshake(this.connectionOptions);
@@ -37,7 +35,7 @@ export class MiraiWebsocketClient {
 		ws.on('close', this.onNetworkBreak);
 
 		ws.on('error', (e) => {
-			console.error('error during websocket connection: %s', e);
+			console.error('WS错误：%s', e);
 		});
 
 		ws.on('message', this.handler);
@@ -47,7 +45,7 @@ export class MiraiWebsocketClient {
 	}
 
 	private onNetworkBreak() {
-		console.warn(' * websocket connection broken');
+		console.warn(' * WS连接断开');
 		this.heartbeat.stop();
 		this.promiseList.clear();
 
@@ -55,7 +53,7 @@ export class MiraiWebsocketClient {
 			return;
 		}
 
-		console.debug(' - try reconnect');
+		console.debug(' - 尝试重连');
 		sleep(5000).then(() => {
 			if (this.quit) return;
 
@@ -65,7 +63,7 @@ export class MiraiWebsocketClient {
 	}
 
 	private handler(incomming: string) {
-		console.debug('incomming message: %s', incomming.toString());
+		console.debug('Mirai发来消息: %s', incomming.toString());
 		const message = JSON.parse(incomming);
 
 		const syncId: string = message.syncId;
@@ -78,7 +76,7 @@ export class MiraiWebsocketClient {
 		if (this.promiseList.has(syncId)) {
 			this.promiseList.done(syncId, message.data);
 		} else {
-			console.error('unknown sync id: %s', incomming);
+			console.error('⚠未知同步ID - %s', incomming);
 		}
 	}
 
@@ -105,7 +103,7 @@ export class MiraiWebsocketClient {
 
 		if (!this.ws) return;
 
-		console.log('closing...');
+		console.log('WS连接正在关闭...');
 		const p = new Promise<void>((resolve) => {
 			this.ws.once('close', resolve);
 		});
@@ -118,12 +116,12 @@ export class MiraiWebsocketClient {
 			await p;
 		}
 
-		console.debug(' * closed');
+		console.debug(' * 成功');
 	}
 
 	dispose() {
 		if (this.quit) {
-			console.error('duplicate dispose');
+			console.error('重复调用dispose');
 			return;
 		}
 		this.quit = true;
